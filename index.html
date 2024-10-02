@@ -124,6 +124,13 @@
   </div>
 </section><!-- End Skills Section -->
 
+<style>
+  .list-group-item strong {
+    color: #03E100;
+  }
+</style>
+
+
 
 
     <!-- ======= Portfolio Section ======= -->
@@ -220,29 +227,62 @@
 
     <div class="section-title">
       <h2>Equipo</h2>
-      
     </div>
 
     <div class="row">
       <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-          <div class="icon">
-            <img src="assets/img/testimonials/testimonials-1.jpg" alt="Axel Lambrechts" width="150" height="150">
-          </div>
+        <div class="icon">
+          <img src="assets/img/testimonials/testimonials-1.jpg" alt="Axel Lambrechts" class="team-img">
+        </div>
+        <div class="text-content">
           <h4 class="title"><a href="">Axel Lambrechts</a></h4>
           <p class="description">Líder del sector de BI, Axel Lambrechts tiene una vasta experiencia en el desarrollo de soluciones de inteligencia empresarial que transforman datos en decisiones estratégicas.</p>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-          <div class="icon">
-            <img src="assets/img/testimonials/testimonials-2.jpg" alt="Lucas Marquez" width="150" height="150">
-          </div>
+      <div class="col-lg-4 offset-lg-2 col-md-6 icon-box" data-aos="fade-up">
+        <div class="icon">
+          <img src="assets/img/testimonials/testimonials-2.jpg" alt="Lucas Marquez" class="team-img">
+        </div>
+        <div class="text-content">
           <h4 class="title"><a href="">Lucas Marquez</a></h4>
           <p class="description">Data Visualizator con experiencia en Power BI, Lucas Marquez se especializa en transformar datos complejos en visualizaciones claras y accionables.</p>
+        </div>
       </div>
-  </div>
-  
+    </div>
 
   </div>
 </section><!-- End Services Section -->
+
+<style>
+  .icon-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  .team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin-top: 80px; /* Ajusta este valor según sea necesario */
+  }
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100; /* Alinea el texto con la parte superior de la imagen */
+  }
+  .icon-box .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px 60px; /* Espacio a la derecha de la imagen */
+  }
+  .icon-box .description {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 0 60px; /* Espacio a la derecha de la imagen */
+  }
+</style>
 
 
 
