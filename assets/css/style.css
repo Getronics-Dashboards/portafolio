@@ -701,16 +701,19 @@ section {
 }
 
 .services .icon {
+
+  /* 
   float: left;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
   height: 54px;
   background: #149ddd;
+  border: 1px solid #149ddd;
+  justify-content: center;
+  align-items: center;
+  */
+  width: 70px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
 }
 
 .services .icon i {
